@@ -242,6 +242,11 @@ aside p {
   min-height: 100vh;
 }
 
+#winter {
+  background-image: url(../images/winter/background.jpg);
+  min-height: 100vh;
+}
+
 .menu-content {
   font-family: 'Noto Sans KR', sans-serif;
   max-width: 560px;
@@ -414,6 +419,47 @@ footer {
 footer p {
   color: #fff;
   font-size: 0.875rem;
+}
+
+/* 모달 */
+.modal-wrapper {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(1, 1, 1, 0.8);
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 90vw;
+  height: 90vh;
+  padding: 20px;
+  position: relative;
+}
+
+.modal > img {
+  height: 100%;
+}
+
+.modal-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+.modal-wrapper.active {
+  display: flex;
 }
 
 @media (max-width: 860px) {
