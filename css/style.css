@@ -237,6 +237,11 @@ aside p {
   min-height: 100vh;
 }
 
+#fall {
+  background-image: url(../images/fall/background.jpg);
+  min-height: 100vh;
+}
+
 .menu-content {
   font-family: 'Noto Sans KR', sans-serif;
   max-width: 560px;
