@@ -412,7 +412,7 @@ input[type='submit'] {
 /* 푸터
 ------------------------------- */
 footer {
-  background: #432;
+  background: grey;
   text-align: center;
   padding: 26px 0;
 }
